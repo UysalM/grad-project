@@ -98,7 +98,7 @@ public class crForm extends JDialog {
     private void getEmailAdd() {
         String host = "jdbc:mysql://localhost:3306/uysalgp";
         String user = "root";
-        String password = "uysalGAUdb";
+        String password = "";
         String dtFilter = textFieldDFilter.getText();
         Pattern pattern = Pattern.compile("^((?:19|20)[0-9][0-9])-(0?[1-9]|1[012])-(0?[1-9]|[12][0-9]|3[01])$");
         Matcher matcher = pattern.matcher(dtFilter);
@@ -168,7 +168,7 @@ public class crForm extends JDialog {
     private void dateFilter() {
         String host = "jdbc:mysql://localhost:3306/uysalgp";
         String user = "root";
-        String password = "uysalGAUdb";
+        String password = "";
         String dtFilter = textFieldDFilter.getText();
         Pattern pattern = Pattern.compile("^((?:19|20)[0-9][0-9])-(0?[1-9]|1[012])-(0?[1-9]|[12][0-9]|3[01])$");
         Matcher matcher = pattern.matcher(dtFilter);
@@ -215,7 +215,7 @@ public class crForm extends JDialog {
     private void idFilter() {
         String host = "jdbc:mysql://localhost:3306/uysalgp";
         String user = "root";
-        String password = "uysalGAUdb";
+        String password = "";
         String ID = textFieldID.getText();
 
         try {
@@ -260,7 +260,7 @@ public class crForm extends JDialog {
     private void showRecords() {
         String host = "jdbc:mysql://localhost:3306/uysalgp";
         String user = "root";
-        String password = "uysalGAUdb";
+        String password = "";
 
         try {
             Connection con = DriverManager.getConnection(host, user, password);
@@ -322,7 +322,7 @@ public class crForm extends JDialog {
         CustomerInfo customer = null;
         String host = "jdbc:mysql://localhost:3306/uysalgp";
         String user = "root";
-        String password = "uysalGAUdb";
+        String password = "";
 
         try {
             Connection con = DriverManager.getConnection(host, user, password);
