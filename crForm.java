@@ -141,8 +141,8 @@ public class crForm extends JDialog {
 
             SmtpClient client = new SmtpClient();
             client.setHost("smtp.office365.com");
-            client.setUsername("uysalgau@outlook.com");
-            client.setPassword("uysal@GAU2022");
+            client.setUsername("**********");
+            client.setPassword("********");
             client.setPort(587);
 
             String[] eAddress = new String[emailAdd.size()];
